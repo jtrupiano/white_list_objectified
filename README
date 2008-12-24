@@ -33,6 +33,12 @@ run through the white_list object first.  As such, this keeps us from persisting
 
   white_list_params!(:object, :attribute)
   
+You can also call
+
+  white_list_all_params!(:object)
+  
+which will iterate over all attributes of :object and white_list any attribute that is a String.
+  
 Original fork: http://github.com/railsmonk/white_list_objectified
 Original plugin website: http://weblog.techno-weenie.net/2006/9/3/white-listing-plugin-for-rails
 Original plugin SVN: http://svn.techno-weenie.net/projects/plugins/white_list/

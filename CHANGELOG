@@ -21,3 +21,5 @@
 * hasmanyjosh teaches me how to speell [technoweenie]
 
 * Add white listing sanitize helper plugin [technoweenie]
+
+* Adds white_list_all_params!(:object) [mikowitz]
